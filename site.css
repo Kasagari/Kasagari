@@ -12,6 +12,8 @@ main h1 {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
+	padding: 25px;
+	margin: 0;
 }
 
 main a {
@@ -25,6 +27,11 @@ p {
 
 blockquote {
 	background-color: #D9E5E3;
+	padding: 20px;
+	border: 5px solid #C2CCCA;
+	width: 250px;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 cite {
@@ -34,14 +41,21 @@ cite {
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	padding: 20px;
 }
 
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	padding: 20px;
 }
 
 aside a {
 	color: inherit;
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
 }
