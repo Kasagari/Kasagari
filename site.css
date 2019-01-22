@@ -55,7 +55,7 @@ cite {
 	background-color: #D9E5E3;
 }
 
-aside {
+.navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	padding: 20px;
@@ -71,14 +71,24 @@ aside h1 {
 	margin-bottom: 25px;
 }
 
-aside li {
+.icones-sociais li {
 	display: inline-block;
 }
 
-footer {
+.social-rodape {
+	margin-top: 10px;
+}
+
+#footer-bottom {
 	background-color: #000;
 	color: #F2FFFC;
 	padding: 20px;
+}
+
+article {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
 }
 
 aside a {
