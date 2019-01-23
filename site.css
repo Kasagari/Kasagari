@@ -21,6 +21,7 @@ h2 {
 	margin: 0;
 	border-bottom: 10px solid #000;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 main a {
@@ -94,6 +95,7 @@ article {
 .navegacao-site a {
 	color: inherit;
 	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: lowercase;
 }
 
 .main-div {
@@ -115,4 +117,27 @@ article {
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px; 
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+#nav-title {
+	text-transform: uppercase;
 }
