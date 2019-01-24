@@ -11,6 +11,7 @@ h1, h2 {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 .main-title {
@@ -48,12 +49,15 @@ em {
 	border-bottom-color: #333;
 	border-right-color: #FFF;
 	width: 250px;
-	margin: 20px 40px;
+	padding: 20px;
+	margin: 20px 0;
 	box-sizing: border-box;
 }
 
 cite {
 	background-color: #D9E5E3;
+	float: right;
+	font-style: italic;
 }
 
 .navegacao-site {
@@ -61,6 +65,15 @@ cite {
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
+	float: right;
+	clear: right;
+	width: 15%;
+	box-sizing: border-box;
+}
+
+img {
+	float: right;
+	width: 15%;
 }
 
 .navegacao-site ul {
@@ -140,4 +153,21 @@ article {
 
 #nav-title {
 	text-transform: uppercase;
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+footer {
+	clear: both;
 }
