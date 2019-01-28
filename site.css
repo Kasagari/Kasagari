@@ -66,8 +66,6 @@ cite {
 	padding: 20px;
 	text-align: center;
 	float: right;
-	/* clear: right; */
-	width: 15%;
 	box-sizing: border-box;
 }
 
@@ -166,10 +164,22 @@ article {
 
 .minha-foto, .navegacao-site {
 	float: right;
-	width: 15%;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site {
+	clear: right;
+	width: 15%;
+	position: relative;
+	top: 213px;
 }
 
 main {
