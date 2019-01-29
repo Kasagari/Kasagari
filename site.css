@@ -50,7 +50,7 @@ em {
 	border-right-color: #FFF;
 	width: 250px;
 	padding: 20px;
-	margin: 20px 0;
+	margin: 20px 0px;
 	box-sizing: border-box;
 }
 
@@ -66,7 +66,7 @@ cite {
 	padding: 20px;
 	text-align: center;
 	float: right;
-	clear: right;
+	/* clear: right; */
 	width: 15%;
 	box-sizing: border-box;
 }
@@ -153,6 +153,20 @@ article {
 
 #nav-title {
 	text-transform: uppercase;
+}
+
+.minha-foto, .navegacao-site {
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	float: right;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .fiat {
